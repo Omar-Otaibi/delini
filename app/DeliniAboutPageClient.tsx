@@ -63,6 +63,7 @@ export default function DeliniAboutPageClient() {
       linkedin: "#",
       github: "#",
     },
+
   ]
 
   return (
