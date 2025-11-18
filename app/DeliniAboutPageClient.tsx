@@ -1,5 +1,4 @@
 "use client"
-
 import { motion, useScroll, useTransform } from "framer-motion"
 import { Download, MapPin, Navigation, Clock, ArrowDown, Building, Route, Linkedin, Github, User } from "lucide-react"
 import Image from "next/image"
@@ -35,32 +34,31 @@ export default function DeliniAboutPageClient() {
     {
       name: "عمر العتيبي",
       role: "مصمم ومطور الواجهات الامامية",
-      linkedin:
-        "https://www.linkedin.com/in/omar-al-osaimi-b91107348?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B08FfH8H2SoyQr6un4beJNw%3D%3D",
-      github: "#",
+      linkedin:"https://www.linkedin.com/in/omarotaibi/",
+      github: "https://github.com/Omar-Otaibi",
     },
     {
       name: "يزيد الجروان",
       role: "مطور الواجهة الخلفية",
-      linkedin: "#",
-      github: "#",
+      linkedin: "https://www.linkedin.com/in/yazeed-aljarwan-b86b06318/",
+      github: "https://github.com/yazeedaljarwan",
     },
     {
       name: "عبدالله الداود",
       role: "مطور الخرائط التفاعلية",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/abdullah-aldawood-7121b12a8/",
       github: "#",
     },
     {
       name: "انس الدريهم",
       role: "مطور الواجهة الخلفية",
-      linkedin: "#",
-      github: "#",
+      linkedin: "https://www.linkedin.com/in/anas-aldraihem-3ab48b2b8/",
+      github: "https://github.com/Anasijd",
     },
     {
       name: "بدر الشهري",
       role: "مطور واجهات المستخدم",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/%D8%A8%D8%AF%D8%B1-%D8%A7%D9%84%D8%B4%D9%87%D8%B1%D9%8A-634a49335/",
       github: "#",
     },
 
@@ -80,7 +78,7 @@ export default function DeliniAboutPageClient() {
           />
 
           {/* Floating geometric shapes */}
-          <div className="absolute inset-0 overflow-hidden">
+          {/* <div className="absolute inset-0 overflow-hidden">
             <motion.div
               animate={{ rotate: 360 }}
               transition={{ duration: 20, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
@@ -91,7 +89,7 @@ export default function DeliniAboutPageClient() {
               transition={{ duration: 25, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
               className="absolute bottom-32 left-32 w-24 h-24 bg-[#7BA7C7]/20 rounded-full blur-lg"
             />
-          </div>
+          </div> */}
 
           <motion.div style={{ y: textY }} className="relative z-10 text-center max-w-5xl mx-auto">
             <motion.div
@@ -252,7 +250,7 @@ export default function DeliniAboutPageClient() {
 
               <motion.div variants={fadeInUp} className="mb-12">
                 <a
-                  href="https://drive.google.com/file/d/1WnBEWQyg7ehbBLMTPTlHyWTzLmPWbyiK/view?usp=drive_link"
+                  href="https://expo.dev/accounts/omariv/projects/delni_test/builds/0f825e3b-b292-4e90-b936-85bf2ee69dea"
                   className="inline-block"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -278,7 +276,7 @@ export default function DeliniAboutPageClient() {
                 </div>
                 <div className="bg-white/15 backdrop-blur-sm rounded-xl p-6 shadow-lg">
                   <p className="text-white font-semibold">الإصدار الحالي</p>
-                  <p className="text-white/80">1.0.1 قيد التطوير</p>
+                  <p className="text-white/80">0.6.1 قيد التطوير</p>
                 </div>
               </motion.div>
             </motion.div>
