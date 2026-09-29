@@ -250,10 +250,9 @@ export default function DeliniAboutPageClient() {
 
               <motion.div variants={fadeInUp} className="mb-12">
                 <a
-                  href="https://expo.dev/accounts/omariv/projects/delni_test/builds/0f825e3b-b292-4e90-b936-85bf2ee69dea"
+                  href="https://github.com/Omar-Otaibi/delini/releases/download/v0.6.1/delini_app.apk"
                   className="inline-block"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  download
                 >
                   <Button
                     size="lg"
@@ -272,7 +271,7 @@ export default function DeliniAboutPageClient() {
                 </div>
                 <div className="bg-white/15 backdrop-blur-sm rounded-xl p-6 shadow-lg">
                   <p className="text-white font-semibold">حجم التطبيق</p>
-                  <p className="text-white/80">73 ميجابايت</p>
+                  <p className="text-white/80">90 ميجابايت</p>
                 </div>
                 <div className="bg-white/15 backdrop-blur-sm rounded-xl p-6 shadow-lg">
                   <p className="text-white font-semibold">الإصدار الحالي</p>
